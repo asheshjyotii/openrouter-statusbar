@@ -1,0 +1,42 @@
+{
+	"name": "openrouter-statusbar",
+	"version": "0.1.0",
+	"description": "Minimal one-line Pi status bar: directory, git branch, model, context bar and OpenRouter credits. One file, zero dependencies, zero config.",
+	"keywords": [
+		"pi-package",
+		"pi",
+		"pi-extension",
+		"statusbar",
+		"status-bar",
+		"footer",
+		"openrouter",
+		"credits",
+		"context-window"
+	],
+	"license": "MIT",
+	"author": "asheshjyotii",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/asheshjyotii/openrouter-statusbar.git"
+	},
+	"homepage": "https://github.com/asheshjyotii/openrouter-statusbar#readme",
+	"bugs": {
+		"url": "https://github.com/asheshjyotii/openrouter-statusbar/issues"
+	},
+	"files": [
+		"extensions",
+		"README.md",
+		"LICENSE"
+	],
+	"pi": {
+		"extensions": [
+			"./extensions/openrouter-statusbar.ts"
+		]
+	},
+	"peerDependencies": {
+		"@earendil-works/pi-agent-core": "*",
+		"@earendil-works/pi-ai": "*",
+		"@earendil-works/pi-coding-agent": "*",
+		"@earendil-works/pi-tui": "*"
+	}
+}

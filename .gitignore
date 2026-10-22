@@ -1,0 +1,6 @@
+node_modules/
+npm-debug.log*
+*.tgz
+
+# session transcripts (contain secrets, never publish)
+context/
